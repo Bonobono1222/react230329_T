@@ -27,7 +27,6 @@
   top: 80px;
   width: 100%;
   height: 100%;
-  border: 1px solid #000;
 }
 
 .PostCreate-post-btn-box {
@@ -36,7 +35,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #000;
 }
 
 
@@ -54,12 +52,64 @@
 .PostCreate-title-box {
   width: 95%;
   height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   margin-bottom: 5px;
+  font-size: 1.5rem;
+  border: 1px solid #000;
 }
 
 .PostCreate-title-box input {
-  width: 100%;
+  width: 90%;
   height: 100%;
+  background-color: transparent;
+  border: none;
+}
 
+.PostCreate-text-box {
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.PostCreate-text-box input {
+  width: 100%;
+  height: 75%;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.picture-box-container {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.picture-box {
+  width: 25%;
+  height: 100%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.picture-add {
+  width: 15%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--blue-color);
+  color: var(--yellow-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 15px;
 }

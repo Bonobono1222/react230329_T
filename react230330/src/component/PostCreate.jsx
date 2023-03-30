@@ -1,5 +1,7 @@
 import React from 'react';
 import './PostCreate.css';
+import { FaCamera } from "react-icons/fa";
+import { TbCameraPlus } from "react-icons/tb";
 
 const PostCreate = () => {
   return (
@@ -13,12 +15,12 @@ const PostCreate = () => {
           <input type='text' placeholder='글 제목을 입력해주세요.'></input>
         </div>
         <div className='PostCreate-text-box'>
-          <textarea type='text' placeholder='본문 내용을 입력해주세요.'></textarea>
-          <div className='picture-box'>
-          <div className='picture-box'></div>
-          <div className='picture-box'></div>
-          <div className='picture-box'></div>
-          <div className='picture-add-btn'></div>
+          <input type='text' placeholder='본문 내용을 입력해주세요.'></input>
+          <div className='picture-box-container'>
+            <div className='picture-box'><FaCamera/></div>
+            <div className='picture-box'><FaCamera/></div>
+            <div className='picture-box'><FaCamera/></div>
+            <div className='picture-add'><TbCameraPlus/></div>
           </div>
         </div>
         </div>
