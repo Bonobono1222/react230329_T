@@ -22,27 +22,101 @@ body {
 .MyProfil-container {
   width: 85.8%;
   height: 13%;
-  border: 1px solid blue;
   overflow: hidden;
   display: flex;
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1;
 }
 
 .MyProfil-img-box {
-  border: 1px solid red;
-  width: 23%;
-  height: 80%;
+  width: 90px;
+  height: 90px;
   overflow: hidden;
   border-radius: 50%;
-  margin: 2%;
+  margin: 10px;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.MyProfil-img {
+.MyProfil-img-box img {
   width: 100%;
   height: 100%;
-  background-image: url(https://cdn.pixabay.com/photo/2019/02/24/15/32/hamster-4017846_640.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   object-fit: cover;
-  border: 1px solid #000;
 }
 
+.MyProfil-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 5px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.MyProfil-post-count {
+  font-size: 0.9rem;
+  margin-left: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.MyProfil-search-box {
+  width: 85.8%;
+  height: 7%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.MyProfil-search-box p {
+  margin-left: 8px;
+}
+
+.MyProfil-search-bar {
+  width: 50%;
+  height: 70%;
+  color: var(--blue-color);
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  border: 3px solid var(--blue-color);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.MyProfil-search-bar input {
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+  z-index: 1;
+}
+
+.MyProfil-post-list-box {
+  width: 85.8%;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap;
+  
+}
+
+.MyProfil-post-list {
+  width: 28%;
+  height: 13%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1; 
+  margin: 10px;
+}
+
+.MyProfil-post-list-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

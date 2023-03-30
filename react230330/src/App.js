@@ -5,12 +5,14 @@ import MyProfil from './component/MyProfil';
 import {Routes, Route} from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import PostCreate from './component/PostCreate';
+
 
 function App() {
   return (
     <div className="App">
       <Post/>
-      <MyProfil/>
+      <PostCreate/>
       <BottomBar/>
     </div>
   );

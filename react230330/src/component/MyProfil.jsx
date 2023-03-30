@@ -1,13 +1,14 @@
 import React from 'react'
 import { ImSearch } from "react-icons/im";
 import './MyProfil.css';
+import { AiOutlineDown } from "react-icons/ai";
 
 const MyProfil = () => {
   return (
     <div className='MyProfil-wrapper'>
       <div className='MyProfil-container'>
         <div className='MyProfil-img-box'>
-          <image src="./logo512.png" alt="로고"></image>
+          <img src="/hamster.jpg" alt="hamster"></img>
         </div>
         <div className='MyProfil-info-box'>
           <p className='MyProfil-name'>김지혜1234</p>
@@ -15,14 +16,22 @@ const MyProfil = () => {
         </div>
       </div>
       <div className='MyProfil-search-box'>
-        <span>내 게시글</span>
+        <p>내 게시글</p>
         <div className='MyProfil-search-bar'>
           <ImSearch/>
-          <input></input>
+          <input type='text' placeholder='search'></input>
         </div>
       </div>
+      <div className='MyProfil-post-list-box'>
+        <div className='MyProfil-post-list'>
+          <img src="/hamster.jpg" alt="로고"></img>
+        </div>
+        <div className='MyProfil-post-list'>
+        <img src="/hamster.jpg" alt="로고"></img>
+      </div>
       <div className='MyProfil-post-list'>
-        <img src='https://cdn.pixabay.com/photo/2019/02/24/15/32/hamster-4017846_640.jpg' alt='hamster'></img>
+          <img src="/hamster.jpg" alt="로고"></img>
+        </div>
       </div>
     </div>
   )
