@@ -1,0 +1,56 @@
+/* 공통컬러 속성지정  */
+:root {
+  --font-inter : "noto";
+  --blue-color : #4B4EBA; 
+  --yellow-color: #F0C648;
+  --skyblue-color: #AFE0FE;
+  --border-color: #D9D9D9;
+}
+
+/* 폰트 전체 사이즈를 html에 선언 */
+html {
+  font-size: 20px;
+}
+
+.App {
+  max-width: 414px;
+  height: 896px;
+  background-color: #F0C648;
+  margin: 0 auto;
+}
+
+img {
+  width: 300px;
+}
+
+.a {
+  /* 폰트 속성지정 */
+  font-family: var(--font-inter);
+  /* 컬러 꺼내쓰기 */
+  color: var(--blue-color);
+  /* font-size: 30px; */
+  /* html에서 선언한 20px * 1.5 = 30px */
+  /* 즉 30px로 사용하고 싶으면 1.5rem으로 사용 */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.b {
+  font-family: var(--font-inter);
+  /* 18px */
+  font-size: 0.9rem
+
+}
+
+.c {
+  font-family: var(--font-inter);
+  /* 16px */
+  font-size: 0.8rem;
+  font-weight: bold; 
+}
+
+.d {
+  font-family: var(--font-inter);
+  /* 16px */
+  font-size: 0.8rem;
+}
