@@ -1,16 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--font-inter);
-}
-
 .BottomBar-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 768px;
   height: 80px;
-  margin: 0 auto;
 }
 
 .BottomBar-container {

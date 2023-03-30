@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import PostCreate from './component/PostCreate';
 import BottomBar from './component/BottomBar';
+import PostWriteDelete from './component/PostWriteDelete';
 
 function App() {
   return (
     <div className ="App">
-      <Post/>
-      <MyProfil/>
+      <Post></Post>
+      <PostWriteDelete/>
       <BottomBar/>
     </div>
   );

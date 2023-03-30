@@ -1,0 +1,92 @@
+
+.PostWriteDelete-wrapper {
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.PostWriteDelete-container {
+  width: 100%;
+  height: 100%;
+}
+
+.PostWriteDelete-post-btn-box {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+.PostWriteDelete-write-btn1,
+.PostWriteDelete-delete-btn2 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-right: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.PostWriteDelete-title-box {
+  width: 95%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.PostWriteDelete-title-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.PostWriteDelete-text-box {
+  width: 95%;
+  height: 68%;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.PostWriteDelete-text-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.PostWriteDelete-sympathy-box,
+.PostWriteDelete-great-box {
+  width: 95%;
+  height: 5%;
+  margin: 0 auto;
+}
+
+.PostWriteDelete-sympathy-box button {
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.PostWriteDelete-sympathy-box button:last-child {
+  margin-left: 260px
+}
+
+.PostWriteDelete-great-box button {
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+

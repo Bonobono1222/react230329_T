@@ -14,8 +14,9 @@ html {
 
 .App {
   max-width: 414px;
-  height: 896px;
-  background-color: #F0C648;
+  /* height: 896px; */
+  height: 100vh;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 

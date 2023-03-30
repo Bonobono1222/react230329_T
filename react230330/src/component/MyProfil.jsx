@@ -1,7 +1,6 @@
 import React from 'react'
 import { ImSearch } from "react-icons/im";
 import './MyProfil.css';
-import { AiOutlineDown } from "react-icons/ai";
 
 const MyProfil = () => {
   return (
@@ -27,9 +26,9 @@ const MyProfil = () => {
           <img src="/hamster.jpg" alt="로고"></img>
         </div>
         <div className='MyProfil-post-list'>
-        <img src="/hamster.jpg" alt="로고"></img>
-      </div>
-      <div className='MyProfil-post-list'>
+          <img src="/hamster.jpg" alt="로고"></img>
+        </div>
+        <div className='MyProfil-post-list'>
           <img src="/hamster.jpg" alt="로고"></img>
         </div>
       </div>

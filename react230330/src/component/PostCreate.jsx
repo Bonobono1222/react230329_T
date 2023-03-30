@@ -23,7 +23,7 @@ const PostCreate = () => {
             <div className='picture-add'><TbCameraPlus/></div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

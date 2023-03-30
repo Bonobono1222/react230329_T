@@ -1,30 +1,12 @@
-/* 공통컬러 속성지정  */
-:root {
-  --font-inter: "noto";
-  --blue-color: #4b4eba;
-  --yellow-color: #f0c648;
-  --skyblue-color: #afe0fe;
-  --border-color: #d9d9d9;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--font-inter);
-}
 
 .PostCreate-wrapper {
-  position: relative;
   width: 100%;
   max-width: 768px;
-  height: 896px;
+  height: 100vh;
   margin: 0 auto;
 }
 
 .PostCreate-container {
-  position: absolute;
-  top: 80px;
   width: 100%;
   height: 100%;
 }
@@ -51,18 +33,18 @@
 
 .PostCreate-title-box {
   width: 95%;
-  height: 5%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  margin-bottom: 5px;
   font-size: 1.5rem;
   border: 1px solid #000;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .PostCreate-title-box input {
-  width: 90%;
+  width: 100%;
   height: 100%;
   background-color: transparent;
   border: none;
@@ -71,6 +53,7 @@
 .PostCreate-text-box {
   width: 95%;
   height: 90%;
+  border: 1px solid #000;
   margin: 0 auto;
 }
 
@@ -78,12 +61,13 @@
   width: 100%;
   height: 75%;
   background-color: transparent;
-  border: 1px solid #000;
+  border: none;
+  
 }
 
 .picture-box-container {
   width: 100%;
-  height: 12%;
+  height: 16%;
   display: flex;
   align-items: center;
 }
@@ -95,8 +79,15 @@
   display: flex;
   justify-content:space-around;
   align-items: center;
-  margin-right: 15px;
-  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.picture-box:first-child {
+  margin-left: 5px;
+}
+
+.picture-box:last-child {
+  margin-right: 0;
 }
 
 .picture-add {
@@ -111,5 +102,6 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0 auto;
-  margin-top: 15px;
+  cursor: pointer;
+  margin-right: 10px;
 }
